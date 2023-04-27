@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0c0c0cf7;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.profile img{
+    width: 24px;
+    height: 24px;
+    margin: 0px 0px -5px 0px;
+}
+
+.profile a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0c0c0cf7;
+    display: inline-block;
+    text-transform: capitalize;
+    /* padding-bottom: 15px; */
+    /* margin-top: 10px; */
+    /* position: relative; */
+    /* bottom: 15px; */
+     /* margin: 0px 0px 0px 0px; */
+}
+
+.aide{
+    margin: 0px 30px 0px 30px;
+}
+
+.aide a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0c0c0cf7;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    /* position: relative; */
+    /* bottom: 15px; */
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.aide img{
+    width: 24px;
+    height: 24px;
+    margin: 0px 0px -5px 0px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
+}
+
+.publier img{
+    width: 24px;
+    height: 24px;
+    margin: 0px 0px -5px 0px;
+}
+
+.publier a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0c0c0cf7;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    /* position: relative; */
+    /* bottom: 15px; */
+    display: inline-block;
+    /* text-transform: uppercase; */
+}
